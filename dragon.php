@@ -1,7 +1,7 @@
-?><?php
+<?php
 echo base64_decode('LS0tLS1Ub29sIEVuY29kZSBCeSBNWFQtLS0tLQ==');
 sleep(2);
-?><?php
+<?php
 error_reporting(0);
 session_start();
 system('clear');
@@ -36,7 +36,7 @@ echo "\033[1;92mNhập Key Để Chạy Server: \033[1;33m";
     if ($makey == $checkkey[0])  {
     sleep(1);
         echo "\033[1;35mKey Dúng Đang chạy server\n";
-system('java -Xms2G  -Xmx2G -jar dist/mad.jar');
+system('java -Xms2G -Xmx2G -jar dist/mad.jar');
         break;
     } else {
         echo "\033[1;91mKey Sai Vui Lòng Lấy Lại\n";
